@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="parent">
+
+    <h1>Fuel Cost Calculator</h1>
+
+    <p>Please select what petrol your car uses</p>
+
+    <select name="cars" id="x">
+        <option value="22.71" id="Petrol unleaded 93">Petrol unleaded 93</option>
+        <option value="23.11" id="Petrol unleaded 95">Petrol unleaded 95</option>
+        <option value="20.38" id="Diesel 500PPM">Diesel 500PPM</option>
+        <option value="20.74" id="Diesel 50PPM">Diesel 50PPM</option>
+    </select>
+    <input type="text" id="FuelConsumption" placeholder="Your Fuel Consumption L/100km" wrap="off"></input>
+
+    <input type="text"  id="TripDistance" placeholder="Trip Distance" wrap="off"></input>
+    <div id="Enter"></div>
+
+    
+    </select>
+    <button id="button">
+        calculate cost
+    </button>
+    <div id="Enter"></div>
+    <div id="fuelCost"></div>
+    
+</div>
+<body>
+    <script src="cost.js"></script>
+</body>
+</html>
